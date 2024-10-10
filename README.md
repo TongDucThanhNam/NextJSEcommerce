@@ -128,14 +128,14 @@ git clone https://github.com/TongDucThanhNam/NextJSEcommerce
 - Install the frontend:
 
 ```
-cd NextJSEcommerce/frontend
+cd frontend
 bun i
 ```
 
 - Install the backend:
 
 ```
-cd NextJSEcommerce/backend
+cd backend
 bun i
 ```
 
