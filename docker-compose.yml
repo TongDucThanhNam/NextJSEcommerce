@@ -7,8 +7,6 @@ services:
       dockerfile: Dockerfile
       args:
         - BACKEND_URL=${BACKEND_URL}
-    image:
-      tongducthanhnam/nextui-ecommerce-fe:latest
     ports:
       - "9999:3000"
     volumes:
@@ -28,8 +26,6 @@ services:
       args:
         - NODE_ENV=${NODE_ENV}
         - PORT=${PORT}
-    image:
-      tongducthanhnam/nextui-ecommerce-be:latest
     ports:
       - "3001:3001"
     environment:
